@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestGWC", "TestGWC\TestGWC.vcxproj", "{6A249F03-34AA-4A12-9E97-0ABE489562F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B11CE457-2939-4246-9D14-0B3C6971786C} = {B11CE457-2939-4246-9D14-0B3C6971786C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gwc", "gwc\gwc.vcxproj", "{B11CE457-2939-4246-9D14-0B3C6971786C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A249F03-34AA-4A12-9E97-0ABE489562F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A249F03-34AA-4A12-9E97-0ABE489562F9}.Debug|Win32.Build.0 = Debug|Win32
+		{6A249F03-34AA-4A12-9E97-0ABE489562F9}.Release|Win32.ActiveCfg = Release|Win32
+		{6A249F03-34AA-4A12-9E97-0ABE489562F9}.Release|Win32.Build.0 = Release|Win32
+		{B11CE457-2939-4246-9D14-0B3C6971786C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B11CE457-2939-4246-9D14-0B3C6971786C}.Debug|Win32.Build.0 = Debug|Win32
+		{B11CE457-2939-4246-9D14-0B3C6971786C}.Release|Win32.ActiveCfg = Release|Win32
+		{B11CE457-2939-4246-9D14-0B3C6971786C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
